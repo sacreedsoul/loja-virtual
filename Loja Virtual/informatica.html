@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informática</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="https://kit.fontawesome.com/9534259f2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="whatsapp-icon">
+        <a href="https://api.whatsapp.com/send?phone=" target="_blank">
+            <img src="Image/whatsapp.png" alt="Ícone do WhatsApp" class="whatsapp-icon-img">
+        </a>
+    </div>
+    <div class="topo">
+        <div class="topo_esquerda">
+            <a href="index.html">
+                <img class="img_logo" src="Image/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="topo_centro">
+            <img class="img_banner" src="Image/banner.png" alt="Logo">
+        </div>
+        <div class="topo_direita">
+            <div class="tooltip">
+                <span class="tooltiptext">Usuário</span>
+                <a href="usuario.html"><span class="fa-regular fa-user icons"></span></a>
+            </div>
+            <div class="tooltip">
+                <span class="tooltiptext">Lista de Desejos</span>
+                <a href=""><span class="fa-regular fa-star icons"></span></a>
+            </div>
+            <div class="tooltip">
+                <span class="tooltiptext">Carrinho</span>
+                <a href="carrinho.html"><img class="icon_cart" src="Image/add-cart.png" alt="Logo"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="menu">
+            <div><a class="carrinho menu_link" href="carrinho.html">Carrinho</a></div>
+            <div><a class="menu_link" href="index.html">Página Inicial</a></div>
+            <div class="dropdown">
+                <a class="active seta menu_link">Departamentos</a>
+                    <div class="dropdown-content">
+                        <a class="active submenu_link" href="informatica.html">Informática</a>
+                        <a class="submenu_link" href="">Eletrônicos</a>
+                        <a class="submenu_link" href="">Smartphone</a>
+                    </div>
+            </div>
+            <div><a class="menu_link" href="sobrenos.html">Sobre Nós</a></div>
+            <div><a class="menu_link" href="contato.html">Contato</a></div>
+        </div>   
+        <div class="corpo">
+            <div><input class="barradepesquisa" type="text" name="search" placeholder="Busque aqui seu produto"></div>
+            <div class="slideShow">
+                <a href="produto.html"><img class="mySlidesImage" src="Image/Produtos/computador.png" alt="Computador"></a>
+                <img class="mySlidesImage" src="Image/Produtos/memoriaram.png" alt="MemoriaRam">
+                <img class="mySlidesImage" src="Image/Produtos/monitor.png" alt="Monitor">
+                <img class="mySlidesImage" src="Image/Produtos/fone.png" alt="FonedeOuvido">
+                <button onclick="plusDivs(-1)">&#10094;</button>
+                <button onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <div class="ordenacao_barra">
+                <label for="ordenacao">Ordenar por:</label>
+                <select id="ordenacao">
+                  <option value="nome">Nome</option>
+                  <option value="preco">Preço</option>
+                  <option value="vendidos">Mais Vendidos</option>
+                </select>
+            </div>
+            <div class="container_exposicao">
+                <div class="item_exposicao"><img src="Image/Produtos/alexa.png" alt="Alexa">
+                    <div class="descricao_produto">
+                        <h3>Alexa</h3>
+                        <h4>R$ 209,90 <br>à vista</h4>
+                        <p>10x de R$24,99</p>
+                    </div>
+                </div>
+                <div class="item_exposicao"><img src="Image/Produtos/cadeiraGamer.jpg" alt="Cadeira Gamer">
+                    <div class="descricao_produto">
+                        <h3>Cadeira Gamer</h3>
+                        <h4>R$ 649,90 <br>à vista</h4>
+                        <p>10x de R$74,99</p>
+                    </div>
+                </div>
+                <div class="item_exposicao"><img src="Image/Produtos/iphone14.png" alt="iPhone 14 Pro">
+                    <div class="descricao_produto">
+                        <h3>iPhone 14 Pro</h3>
+                        <h4>R$ 8.599,90 <br>à vista</h4>
+                        <p>10x de R$899,99</p>
+                    </div>
+                </div>
+                <div class="item_exposicao"><img src="Image/Produtos/tv.png" alt="TV 50'">
+                    <div class="descricao_produto">
+                        <h3>TV 50"</h3>
+                        <h4>R$ 5.999,90 <br>à vista</h4>
+                        <p>10x de R$649,99</p>
+                    </div>
+                </div>
+                <div class="item_exposicao"><img src="Image/Produtos/fonedeouvidojbl.png" alt="Fone de Ouvido">
+                    <div class="descricao_produto">
+                        <h3>Fone de Ouvido</h3>
+                        <h4>R$ 159,90 <br>à vista</h4>
+                        <p>10x de R$189,99</p>
+                    </div>
+                </div>
+                <div class="item_exposicao"><img src="Image/Produtos/multifuncional.png" alt="Multifuncional">
+                    <div class="descricao_produto">
+                        <h3>Multifuncional</h3>
+                        <h4>R$ 789,90 <br>à vista</h4>
+                        <p>10x de R$89,99</p>
+                    </div>
+                </div>
+                <div class="item_exposicao"><img src="Image/Produtos/ssd.png" alt="SSD">
+                    <div class="descricao_produto">
+                        <h3>SSD 480GB</h3>
+                        <h4>R$ 199,90 <br>à vista</h4>
+                        <p>10x de R$24,99</p>
+                    </div>
+                </div>
+                <div class="item_exposicao"><img src="Image/Produtos/ps5.png" alt="PS5">
+                    <div class="descricao_produto">
+                        <h3>PS5</h3>
+                        <h4>R$ 3.649,90 <br>à vista</h4>
+                        <p>10x de R$379,99</p>
+                    </div>
+                </div>
+                <div class="item_exposicao"><img src="Image/Produtos/xbox.png" alt="Alexa">
+                    <div class="descricao_produto">
+                        <h3>Xbox</h3>
+                        <h4>R$ 2.379,90 <br>à vista</h4>
+                        <p>10x de R$269,99</p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <footer>
+        <p style="font-size: 16px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Acompanhe-nos nas Redes Sociais.</p>
+        <a href="https://www.facebook.com/" target="_blank" class="fa-brands fa-square-facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank" class="fa-brands fa-instagram"></a>
+        <a href="https://www.youtube.com/" target="_blank" class="fa-brands fa-youtube"></a>
+        <a href="https://www.twitter.com/" target="_blank" class="fa-brands fa-x-twitter"></a>
+        <div>
+            <br>
+            <p style="font-size: 14px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">© 2023 Todos os direitos reservados.</p>
+            <p style="font-size: 14px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Desenvolvido por ...</p>
+        </div>
+    </footer>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlidesImage");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+
+        setInterval(function () {
+            plusDivs(1);
+        }, 2000);
+
+    </script>
+</body>
+</html>
